@@ -1,0 +1,117 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Georgia', serif;
+    color: #333;
+    background-color: #f5f1dc; 
+    line-height: 1.6;
+}
+
+
+/* Header */
+h1, h2, h3, h4, h5, h6 {
+    color: #003d29; /* Replace with the hex code for the dark green */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+
+header nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Main Content */
+main {
+    padding: 2rem;
+}
+
+.intro {
+    text-align: center; /* Center-align the text */
+    margin-bottom: 2rem;
+}
+
+.intro h1 {
+    font-size: 3rem;
+    color: #274d40;
+}
+
+.intro .subtitle {
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
+
+
+
+/* Content Section */
+.content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.text-content {
+    flex: 2;
+    margin-right: 2rem;
+}
+
+.text-content h2 {
+    font-size: 2rem; 
+    color: #005c3b;
+    margin-bottom: 0.5rem;
+}
+
+
+.text-content p {
+    margin-bottom: 1rem;
+}
+
+.image-content {
+    flex: 1;
+}
+
+.image-content img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.text-content h1 {
+    font-size: 2.5rem;
+    color: #274d40; 
+    margin-bottom: 1.5rem;
+    text-align: left; 
+    margin-left: 0.5rem; 
+}
+
+
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .text-content {
+        margin-right: 0;
+    }
+
+    .image-content {
+        margin-top: 1rem;
+    }
+}
