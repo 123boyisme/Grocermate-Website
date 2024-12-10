@@ -1,0 +1,3 @@
+Usha: Content of the introduction section
+Tasneem: Content of the research section and the define section
+Ahmad: Contents of the prototype section, actual programming of the website, edited image colors to fit the website background.
