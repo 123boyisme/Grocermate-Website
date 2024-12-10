@@ -156,6 +156,14 @@ main {
     background-color: #005c3b; /* Dark green background */
     color: #fff; /* White text on hover */
 }
+.homescreen-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 8px; /* Optional: Add rounded corners */
+}
+
 
 
 
