@@ -1,0 +1,17 @@
+-Download and unzip the files
+-Open comand prompt (cmd)
+-Cd into the folder
+
+Install the following libraries by running these commands while cd'd into the folder:
+-npm install
+-npx expo install react-native-web @expo/metro-runtime
+-npm install firebase
+-npm install @react-google-maps/api
+-npm install use-places-autocomplete
+
+-Run “npm start” in your terminal
+
+-Wait a few seconds, you should see a qr code appear on your screen
+-Press the “w” key
+
+This should open the prototype on the web view
